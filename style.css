@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("SpaceGrotesk-Light.woff2") format
+    (woff2);
+}
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(198, 198, 198);
+    font-family: sans-serif;
+    line-height: 1.4;
+     font-family: "Space Mono", monospace;
+     font-optical-sizing: auto;
+}
+
+h1{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+    display:block;
+}
+
+p{
+    max-width: 600px;
+}
+
+/* header */
+
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: currentColor;
+    background-color: rgba(255, 255, 255, 0.762);
+}
+
+.nav a span{
+    display: block;
+    padding: 15px;
+}
+/* ****
+page projet
+**** */
+
+.projet{
+    background: rgb(255, 255, 255);
+}
+
+.projet h1{
+    font-size: 50px;
+    color: rgb(255, 0, 128);
+}
